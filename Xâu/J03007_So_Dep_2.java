@@ -13,6 +13,7 @@ public class J03007_So_Dep_2 {
                 System.out.println("NO");
             }
         }
+        input.close();
     }
     private static boolean checkString(StringBuilder s){
         int d = 0, n = s.length();

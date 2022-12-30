@@ -2,19 +2,17 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class HELLOFILES {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException{
         try {
-            File myObj = new File("Hello.txt");
-            Scanner myReader = new Scanner(myObj);
-            while (myReader.hasNextLine())
+            Scanner input = new Scanner(new File("Hello.txt"));
+            while (input.hasNextLine())
             {
-                String data = myReader.nextLine();
+                String data = input.nextLine();
                 System.out.println(data);
             }
-            myReader.close();
+            input.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred!");
-            e.printStackTrace();
+            System.out.println(e);
         }
     }
 }

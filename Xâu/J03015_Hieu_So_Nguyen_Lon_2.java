@@ -7,5 +7,6 @@ public class J03015_Hieu_So_Nguyen_Lon_2 {
         BigInteger a = sc.nextBigInteger();
         BigInteger b = sc.nextBigInteger();
         System.out.println(a.subtract(b));
+        sc.close();
     }
 }

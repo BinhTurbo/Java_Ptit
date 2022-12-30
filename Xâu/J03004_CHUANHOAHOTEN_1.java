@@ -3,16 +3,17 @@ import java.util.StringTokenizer;
 
 public class J03004_CHUANHOAHOTEN_1 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int t = Integer.parseInt(in.nextLine());
-        while (t-- > 0)
+        Scanner input = new Scanner(System.in);
+        int test = Integer.parseInt(input.nextLine());
+        while (test-- > 0)
         {
-            String Hoten = in.nextLine();
-            System.out.println(ChuanHoa(Hoten));
+            String name = input.nextLine();
+            System.out.println(ChuanHoa(name));
         }
-        in.close();
+        input.close();
     }
-    public static String ChuanHoa(String s)
+
+    private static String ChuanHoa(String s)
     {
         StringTokenizer st = new StringTokenizer(s);
         StringBuilder kq = new StringBuilder();

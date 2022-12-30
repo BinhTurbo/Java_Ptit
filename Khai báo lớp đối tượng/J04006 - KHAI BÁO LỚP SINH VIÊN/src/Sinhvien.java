@@ -1,6 +1,5 @@
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.text.*;
 import java.util.*;
 public class Sinhvien {
     private String id;

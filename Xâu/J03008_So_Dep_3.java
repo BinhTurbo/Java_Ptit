@@ -24,5 +24,6 @@ public class J03008_So_Dep_3 {
             else
                 System.out.println("NO");
         }
+        input.close();
     }
 }

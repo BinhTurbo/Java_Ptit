@@ -9,6 +9,7 @@ public class J03021_Dien_Thoai_Cuc_Gach {
             String temp = Phone(s);
             System.out.println(reversible(temp));
         }
+        input.close();
     }
     static String reversible(String s) {
         for (int i = 0; i < s.length()/2; i++)

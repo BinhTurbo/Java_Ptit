@@ -16,5 +16,6 @@ public class App {
             else 
                 System.out.printf("%.3f\n", a + b + c);
         }
+        input.close();
     }
 }

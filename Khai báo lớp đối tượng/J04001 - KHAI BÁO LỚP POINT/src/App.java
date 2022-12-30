@@ -8,8 +8,8 @@ public class App {
             Point p1 = new Point(input.nextDouble(), input.nextDouble());
             Point p2 = new Point(input.nextDouble(), input.nextDouble());
             // System.out.printf("%.4f", Point.distance(p1, p2));
-            System.out.printf("%.4f", p1.distance(p2));
-            System.out.println();
+            // System.out.printf("%.4f", p1.distance(p2));
+            System.out.println(String.format("%.4f", p1.distance(p2)));
         }
         input.close();
     }

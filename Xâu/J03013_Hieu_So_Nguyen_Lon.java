@@ -18,5 +18,6 @@ public class J03013_Hieu_So_Nguyen_Lon {
                 System.out.print(0);
             System.out.println(ans);
         }
+        sc.close();
     }
 }
